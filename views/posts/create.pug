@@ -1,0 +1,8 @@
+extends ../layout
+
+block content
+    h1 Create new post
+    form(method='post' action='/post')
+        input(name='title')
+        textarea(name="content" cols="30" rows="10")
+        input(type='submit', value='Create')

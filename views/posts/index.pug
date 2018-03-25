@@ -1,0 +1,7 @@
+extends ../layout
+
+block content
+    each el in data
+        h1 Title: #{el.title}
+        p Author: #{el.user_id}
+        p Content: #{el.content}
